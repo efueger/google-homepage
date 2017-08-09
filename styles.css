@@ -1,10 +1,10 @@
-ul {
+#navbar ul {
 	list-style-type: none;
 	border: 2px solid red;
 }
 
 
-li {
+#navbar li {
 	display: inline;
 	text-align: center;
 }
@@ -16,5 +16,86 @@ li {
 }
 
 #navbar li {
+	float: left;
+	margin: 10px;
+}
+
+#navbar ul {
 	float: right;
+}
+
+#google {
+	height: 92px;
+	width: 272px;
+	padding-top: 109px;
+	display: block;
+	margin: auto;
+	border: 1px dashed blue;
+	clear: right;
+}
+
+#searchfield {
+	display: inline-block;
+	border: 1px solid green;
+	margin: auto;
+	/*width: 50%;*/
+	padding: 10px;
+
+}
+
+div.divform {
+	display: block;
+	text-align: center;
+}
+
+.form {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+input[type="submit"] {
+	background-color: f1f1f1;
+	color: #757575;
+	border: 1px dashed red;
+	padding: 0 16;
+	height: 34px;
+	font-size: 13px;
+	font-family: arial;
+	font-weight: bold;
+
+}
+
+.footies {
+	border: 2px solid gray;
+	color: red;
+	position: absolute;
+	right: 0;
+    bottom: 0;
+    left: 0;
+    /*padding: 1rem;*/
+}
+
+.footies ul {
+	list-style-type: none;
+}
+
+.footies li {
+	display: inline-block;
+}
+
+#footbar1 {
+	display: inline-block;
+}
+
+#footbar2 {
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+}
+
+.resizedTextbox {
+	width: 400px;
+	height: 40px;
 }
